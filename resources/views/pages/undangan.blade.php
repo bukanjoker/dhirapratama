@@ -14,14 +14,13 @@
 
     <link href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet'>
   	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
 
   	<link rel="stylesheet" type="text/css" href="assets/css/undangan.css">
   </head>
   <body oncontextmenu="return false" class="overflow-disable">
+    @include("containers.cover")
     <div class="undangan-container">
-      @include("containers.cover")
-
       <div class="text-center">
         <img src="assets/images/logo-fe.png" class="logo" alt="logo-fe">
         <div class="section-text">
@@ -50,7 +49,7 @@
         window.scrollTo(0, 0);
       }
     </script>
-  	<script src="bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+  	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.js"></script>
   	<script type="text/javascript" src="assets/js/undangan.js"></script>
   </body>

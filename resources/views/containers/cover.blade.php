@@ -12,6 +12,8 @@
       <h3 class="py-3 py-lg-5">{{$tamu}}</h3>
     @endisset
 
-    <button type="button" class="btn btn-outline-secondary" onclick="Close()">Buka Undangan</button>
+    <button id="buttonpembuka" type="button" class="btn btn-outline-secondary">
+      Buka Undangan
+    </button>
   </div>
 </div>

@@ -7,16 +7,15 @@
   	<meta name="title" content="Dhirapratama">
   	<meta name="description" content="Hi there, let's make a great collaboration of works">
 
-
   	<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/eyeglasses/apple-touch-icon.png">
   	<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/eyeglasses/favicon-32x32.png">
   	<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/eyeglasses/favicon-16x16.png">
   	<link rel="manifest" href="assets/icons/eyeglasses/site.webmanifest">
 
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela+Round">
   	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
   	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela+Round">
   	<link rel="stylesheet" type="text/css" href="assets/css/home.css">
   </head>
   <body>
@@ -41,10 +40,16 @@
   				</div>
   			</div>
   			<div class="pb-2">
-  				<button class="btn btn-secondary w-100">Works <i class="bi-chevron-down"></i></button>
+  				<button class="btn btn-secondary w-100">Projects <i class="bi-chevron-down"></i></button>
+          <div id="projects" class="collapse py-2">
+
+  				</div>
   			</div>
   			<div class="pb-2">
-  				<button class="btn btn-secondary w-100">Galleries <i class="bi-chevron-down"></i></button>
+  				<button class="btn btn-secondary w-100">Photoshoots <i class="bi-chevron-down"></i></button>
+          <div id="photoshoots" class="collapse py-2">
+
+  				</div>
   			</div>
   		</div>
   		<div class="text-center pb-5">
