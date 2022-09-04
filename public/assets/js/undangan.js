@@ -1,3 +1,8 @@
+$(document).ready(function() {
+  $("#cover-container").delay(1000).animate({ opacity: 1 }, 2000);
+  $("#buttonpembuka").delay(2000).animate({ opacity: 1 }, 2500);
+})
+
 $("#buttonpembuka").click(function() {
   $("#boxpembuka").fadeOut("slow");
   $("body").removeClass("overflow-disable");
