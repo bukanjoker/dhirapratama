@@ -9,8 +9,16 @@ $("#buttonpembuka").click(function() {
   $("#fab-menu").removeClass("hidden");
 });
 
+$("#google-maps").click(function() {
+  openMaps();
+})
+
+function openMaps() {
+  window.open("https://goo.gl/maps/ks618ou4bQfPf6k19", '_blank').focus();
+}
+
 let fabFlag = false;
-$("#fab-opener").click(function() {
+$("#fab-menu").click(function() {
   $("#fab-container").slideToggle("slow");
 
   if (fabFlag) {

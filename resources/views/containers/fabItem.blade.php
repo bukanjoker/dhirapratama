@@ -1,5 +1,5 @@
 <div id="{{$id ?? ''}}" class="align-middle d-flex justify-content-end mb-3 cursor-pointer">
-  <div>
+  <div data-toggle="modal" data-target="#{{ $isModal ? $id : '' }}">
     <div class="bg-light mr-3 px-3 py-1 rounded text-dark">
       {{$label ?? ''}}
     </div>
