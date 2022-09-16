@@ -38,6 +38,11 @@
         @include("containers.ucapan")
         @include("containers.terimakasih")
 
+        @include("containers.modalRsvpUcapan")
+        @include("containers.modalDresscode")
+        @include("containers.modalProtokol")
+        @include("containers.modalAmplopDigital")
+
       </div>
 
       <div id="fab-menu" class="text-right hidden">

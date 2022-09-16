@@ -77,6 +77,10 @@ body {
   position: fixed;
 }
 
+.modal .modal-dialog .modal-content {
+  color: #000000;
+}
+
 @media (min-width: 576px) {
   .web-only {
     display: block;
