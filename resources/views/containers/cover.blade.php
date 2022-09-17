@@ -1,4 +1,4 @@
-<div id="boxpembuka">
+<div id="boxpembuka" class="background-marble">
   <div class="cover-container">
     <div id="cover-container" style="opacity: 0;">
       <h1 class="font-styled">Fetra & Eka</h1>

@@ -5,7 +5,7 @@
   <div class="col-sm-5 col-8 text-left">
     <h4 class="font-styled" onclick="openMaps()">Rumah Makan Rasa Nikmat</h4>
     <span>
-      Jalan Raya Malangbong No. 35 Cinangka, Sukamanah, Malangbong Garut, Jawa Barat
+      Jalan Raya Malangbong No. 35 </br> Cinangka, Sukamanah, Malangbong </br> Garut, Jawa Barat
     </span>
   </div>
 </div>

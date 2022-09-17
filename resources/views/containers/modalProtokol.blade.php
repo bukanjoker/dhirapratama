@@ -5,10 +5,48 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding: 0; margin: 0;">
           <span aria-hidden="true">&times;</span>
         </button>
-        <h3 class="font-styled">Protokol</h3>
+        <h3 class="font-styled">Protokol Kesehatan</h3>
       </div>
       <div class="px-4 pb-3">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Mengingat kondisi pandemi yang belum usai, kami menghimbau Bapak/Ibu/Saudara/i tamu undangan
+agar tetap memperhatikan protokol kesehatan dalam rangka upaya pencegahan penyebaran
+virus Covid-19
+      </div>
+      <div class="container px-4 font-lg mt-4 text-center">
+        <div class="row">
+          <div class="col-sm-3 col-6 pb-4">
+            <div>
+              <img style="width:80px;" src="/assets/images/mask.png">
+            </div>
+            <div>
+              Menggunakan Masker
+            </div>
+          </div>
+          <div class="col-sm-3 col-6 pb-4">
+            <div>
+              <img style="width:80px;" src="/assets/images/handwash.png">
+            </div>
+            <div>
+              Mencuci Tangan
+            </div>
+          </div>
+          <div class="col-sm-3 col-6 pb-4">
+            <div>
+              <img style="width:80px;" src="/assets/images/bodytemp.png">
+            </div>
+            <div>
+              Memeriksa Suhu Tubuh
+            </div>
+          </div>
+          <div class="col-sm-3 col-6 pb-4">
+            <div>
+              <img style="width:80px;" src="/assets/images/socdistancing.png">
+            </div>
+            <div>
+              Menjaga Jarak
+            </div>
+          </div>
+        </div>
       </div>
       <div class="p-3">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>

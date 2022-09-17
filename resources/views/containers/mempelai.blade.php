@@ -7,7 +7,7 @@
     </span>
   </div>
   <div class="col-sm-2">
-    <h2 class="py-2 font-styled highlight-text">&</h2>
+    <h3 class="py-2 font-styled highlight-text">&</h3>
   </div>
   <div class="col-sm-5">
     <h3 class="font-styled highlight-text">Eka Pratamandhira, S. Kom</h3>

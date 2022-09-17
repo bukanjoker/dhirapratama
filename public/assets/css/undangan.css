@@ -5,6 +5,11 @@ body {
   scrollbar-width: none;  /* Firefox */
 }
 
+.background-marble {
+  background-image: url("/assets/images/bg-marble.png");
+  background-position: center;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -64,6 +69,14 @@ body {
 
 .font-styled {
   font-family: 'Great Vibes';
+}
+
+.font-sm {
+  font-size: 12px;
+}
+
+.font-lg {
+  font-size: 12px;
 }
 
 .highlight-text {
@@ -169,6 +182,10 @@ body {
     bottom: 40px
   }
   #btn-livestream .btn {
+    font-size: 10px;
+  }
+
+  .font-sm {
     font-size: 10px;
   }
 }
