@@ -69,7 +69,7 @@
         window.scrollTo(0, 0);
       }
     </script>
-  	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="bootstrap/js/jquery-3.5.1.js"></script>
   	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.js"></script>
   	<script type="text/javascript" src="assets/js/undangan.js"></script>
   	<script type="text/javascript" src="assets/js/countdown.js"></script>
