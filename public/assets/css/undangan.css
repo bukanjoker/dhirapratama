@@ -131,6 +131,13 @@ body {
   font-size: 21px;
 }
 
+.card-amplop {
+  padding: 12px;
+  background: rgba(229, 220, 131, 0.35);
+  border-radius: 10px;
+  min-height: 230px;
+}
+
 @media (min-width: 576px) {
   .web-only {
     display: block;
@@ -187,5 +194,9 @@ body {
 
   .font-sm {
     font-size: 10px;
+  }
+
+  .card-amplop {
+    min-height: 186px;
   }
 }

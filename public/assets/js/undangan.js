@@ -59,3 +59,9 @@ function submitUcapan() {
     })
   }
 }
+
+function copyText(elm) {
+  $($(elm).parent().find('button')[0]).html("Copied");
+  const textVal = $(elm).parent().find('input')[0].value;
+  navigator.clipboard.writeText(textVal);
+}
