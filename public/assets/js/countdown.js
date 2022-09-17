@@ -1,4 +1,4 @@
-const theDay = "2022-09-17 22:03:00";
+const theDay = "2022-10-01 08:00:00";
 const elmId = "countdown";
 
 // Set the date we're counting down to
