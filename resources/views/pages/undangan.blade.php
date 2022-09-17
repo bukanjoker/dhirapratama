@@ -5,7 +5,7 @@
   	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui" />
   	<title>Fetra & Eka | Wedding Invitation</title>
   	<meta name="title" content="Fetra & Eka | Wedding Invitation">
-  	<meta name="description" content="1102022 - Bismillah, mohon kehadiran dan doa restunya pada acara pernikahan kami. Fetra dan Eka. Terima kasih.">
+  	<meta name="description" content="1102022 - Bismillah, izinkan kami mengundang dan mengharapkan do'a restu dari bapak/ibu dalam acara pernikahan kami. Fetra dan Eka. Terima kasih.">
 
   	<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/love_letter/apple-touch-icon.png">
   	<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/love_letter/favicon-32x32.png">
@@ -16,7 +16,7 @@
   	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
   	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
 
-  	<link rel="stylesheet" type="text/css" href="assets/css/undangan.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/undangan.css?v=1.1">
   </head>
   <body oncontextmenu="return false" class="overflow-disable">
     @include("containers.cover")
@@ -72,7 +72,7 @@
     </script>
     <script src="bootstrap/js/jquery-3.5.1.js"></script>
   	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.js"></script>
-  	<script type="text/javascript" src="assets/js/undangan.js"></script>
-  	<script type="text/javascript" src="assets/js/countdown.js"></script>
+  	<script type="text/javascript" src="assets/js/undangan.js?v=1.1"></script>
+  	<script type="text/javascript" src="assets/js/countdown.js?v=1.1"></script>
   </body>
 </html>
