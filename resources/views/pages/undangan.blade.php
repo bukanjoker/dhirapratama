@@ -20,7 +20,7 @@
   </head>
   <body oncontextmenu="return false" class="overflow-disable">
     @include("containers.cover")
-    <div class="undangan-container">
+    <div class="undangan-container background-marble">
       <div class="text-center">
         <img src="assets/images/logo-fe.png" class="logo" alt="logo-fe">
         <div class="section-text">
