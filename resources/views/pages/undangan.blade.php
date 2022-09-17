@@ -60,6 +60,8 @@
         </button>
       </div>
 
+      @include("containers.countdown")
+
     </div>
 
     <script type="text/javascript">
@@ -70,5 +72,6 @@
   	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.js"></script>
   	<script type="text/javascript" src="assets/js/undangan.js"></script>
+  	<script type="text/javascript" src="assets/js/countdown.js"></script>
   </body>
 </html>
