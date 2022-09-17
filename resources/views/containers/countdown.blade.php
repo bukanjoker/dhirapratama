@@ -1,9 +1,9 @@
-<div id="countdown" class="">
+<div id="countdown" class="px-2">
   <div class="countdown-label">
     <i>Countdown</i>
   </div>
-  <div class="row">
-    <div class="col-2 text-center">
+  <div style="display: flex;">
+    <div class="text-center">
       <div id="countdown-days">
         00
       </div>
@@ -11,10 +11,10 @@
         days
       </div>
     </div>
-    <div class="col-1 text-center">
+    <div class="px-2 text-center">
       :
     </div>
-    <div class="col-2 text-center">
+    <div class="text-center">
       <div id="countdown-hour">
         00
       </div>
@@ -22,10 +22,10 @@
         hours
       </div>
     </div>
-    <div class="col-1 text-center">
+    <div class="px-2 text-center">
       :
     </div>
-    <div class="col-2 text-center">
+    <div class="text-center">
       <div id="countdown-mins">
         00
       </div>
@@ -33,10 +33,10 @@
         mins
       </div>
     </div>
-    <div class="col-1 text-center">
+    <div class="px-2 text-center">
       :
     </div>
-    <div class="col-2 text-center">
+    <div class="text-center">
       <div id="countdown-secs">
         00
       </div>
