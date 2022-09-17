@@ -9,7 +9,7 @@
       {{$label ?? ''}}
     </div>
   </div>
-  <button type="button" class="bg-light border-0 h6 pb-1 rounded-circle">
+  <button type="button" class="bg-light border-0 rounded-circle fab-item">
     <i class="bi {{$icon ?? 'bi-info'}} icon"></i>
   </button>
 </div>

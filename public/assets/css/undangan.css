@@ -109,6 +109,10 @@ body {
   color: #000000;
 }
 
+.fab-item {
+  font-size: 21px;
+}
+
 @media (min-width: 576px) {
   .web-only {
     display: block;
@@ -150,5 +154,9 @@ body {
   }
   .modal-content .form-check-inline {
     margin-right: 0.5rem;
+  }
+
+  .fab-item {
+    font-size: 16px;
   }
 }
