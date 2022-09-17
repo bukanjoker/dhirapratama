@@ -23,7 +23,7 @@ body {
 .card-rsvp {
   max-height: 319px;
   overflow-y: scroll;
-  background: #ffffff;
+  background: #FFFEFC;
   color: #000000;
   text-align: left;
   padding: 24px;
@@ -143,5 +143,12 @@ body {
   }
   .mobile-only {
     display: block;
+  }
+
+  .modal-content .form-check-label {
+    font-size: 10px;
+  }
+  .modal-content .form-check-inline {
+    margin-right: 0.5rem;
   }
 }

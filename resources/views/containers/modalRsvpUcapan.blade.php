@@ -11,7 +11,7 @@
         @csrf
         <div class="px-4 pb-3">
           <div class="row pb-3">
-            <div class="col-2">Kehadiran: </div>
+            <div class="col-2 form-check-label">Kehadiran: </div>
             <div class="col-10">
               <div class="form-check form-check-inline">
                 <input required class="form-check-input" type="radio" name="kehadiran" id="opt-yes" value="yes">
