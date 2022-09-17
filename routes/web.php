@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/fetra-eka-wedding', [ Undangan::class, 'getUndangan' ]);
+Route::post('/fetra-eka-wedding/rsvp-submit', [ Undangan::class, 'insertUcapan' ]);

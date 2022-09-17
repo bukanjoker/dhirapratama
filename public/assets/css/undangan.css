@@ -20,6 +20,20 @@ body {
   padding: 64px 24px;
 }
 
+.card-rsvp {
+  max-height: 319px;
+  overflow-y: scroll;
+  background: #ffffff;
+  color: #000000;
+  text-align: left;
+  padding: 24px;
+  border-radius: 10px;
+}
+.card-rsvp .nama {
+  color: #F5DE08;
+  font-weight: 500;
+}
+
 .hidden {
   display: none !important;
   transition: all 2s;

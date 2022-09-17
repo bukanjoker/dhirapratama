@@ -31,3 +31,31 @@ $("#fab-menu").click(function() {
     fabFlag = true;
   }
 });
+
+function submitUcapan() {
+  if (document.forms['form-ucapan'].reportValidity()) {
+    const formId = "form-ucapan";
+    let formValues = {};
+    $.each($("#"+formId).serializeArray(), function (i, field) {
+        formValues[field.name] = field.value;
+    });
+
+    $.ajax({
+        url: '/fetra-eka-wedding/rsvp-submit',
+        method: 'post',
+        data: $("#"+formId).serialize(),
+        success: function() {
+            $("#rsvp-ucapan").modal('hide');
+            $("#card-rsvp").prepend(
+              `<div class="pb-2">
+                <div>
+                  <span class="nama">${formValues.name}</span>
+                  ${formValues.address ? ('<b>• '+formValues.address+'</b>') : ''}
+                </div>
+                <i>${formValues.comments}</i>
+              </div>`
+            ).fadeIn('slow');
+        }
+    })
+  }
+}

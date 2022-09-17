@@ -7,12 +7,41 @@
         </button>
         <h3 class="font-styled">RSVP Ucapan</h3>
       </div>
-      <div class="px-4 pb-3">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
+      <form id="form-ucapan" class="" action="" method="post">
+        @csrf
+        <div class="px-4 pb-3">
+          <div class="row pb-3">
+            <div class="col-2">Kehadiran: </div>
+            <div class="col-10">
+              <div class="form-check form-check-inline">
+                <input required class="form-check-input" type="radio" name="kehadiran" id="opt-yes" value="yes">
+                <label class="form-check-label" for="opt-yes">Hadir</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input required class="form-check-input" type="radio" name="kehadiran" id="opt-maybe" value="maybe">
+                <label class="form-check-label" for="opt-maybe">Mungkin Hadir</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input required class="form-check-input" type="radio" name="kehadiran" id="opt-no" value="no">
+                <label class="form-check-label" for="opt-no">Tidak Hadir</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <input required type="text" placeholder="Nama" class="form-control" name="name" value="">
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Alamat Daerah / Institusi" class="form-control" name="address" value="">
+          </div>
+          <div class="form-group">
+            <textarea required class="form-control" placeholder="Ucapan" name="comments" rows="8" cols="80" maxlength="250"></textarea>
+          </div>
+        </div>
+      </form>
+
       <div class="p-3">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
-        <button type="button" class="btn btn-primary">Kirim</button>
+        <button type="button" class="btn btn-primary" onclick="submitUcapan()">Kirim</button>
       </div>
     </div>
   </div>
