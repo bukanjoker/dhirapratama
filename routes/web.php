@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Undangan;
+use App\Http\Controllers\ConfigController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,7 @@ Route::get('/', function () {
 
 Route::get('/fetra-eka-wedding', [ Undangan::class, 'getUndangan' ]);
 Route::post('/fetra-eka-wedding/rsvp-submit', [ Undangan::class, 'insertUcapan' ]);
+
+Route::post('/config/{key}', [ ConfigController::class, 'updateConfig' ]);
+Route::get('/config/{key}', [ ConfigController::class, 'viewConfig' ]);
+Route::get('/getConfig/{key}', [ ConfigController::class, 'getConfig' ]);

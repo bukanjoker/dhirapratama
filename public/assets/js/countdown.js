@@ -1,4 +1,4 @@
-const theDay = "2022-10-01 08:00:00";
+const theDay = "2022-09-17 22:03:00";
 const elmId = "countdown";
 
 // Set the date we're counting down to
@@ -29,6 +29,7 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
     document.getElementById(elmId).classList.add("hidden");
+    youtubeOpen();
   }
 }, 1000);
 
@@ -37,4 +38,15 @@ function convertNumber(num) {
   	return '0'+num;
   }
   return num;
+}
+
+function youtubeOpen() {
+  $.ajax({
+      url: '/getConfig/youtube',
+      method: 'get',
+      success: function(res) {
+          $("#btn-livestream").removeClass("hidden");
+          $("#btn-livestream").find('a').attr('href', res.value);
+      }
+  })
 }

@@ -61,6 +61,7 @@
       </div>
 
       @include("containers.countdown")
+      @include("containers.livestream")
 
     </div>
 
