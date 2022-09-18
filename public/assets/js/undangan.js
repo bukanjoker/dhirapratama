@@ -1,6 +1,8 @@
 $(document).ready(function() {
   $("#cover-container").delay(1000).animate({ opacity: 1 }, 2000);
   $("#buttonpembuka").delay(2000).animate({ opacity: 1 }, 2500);
+
+  disableInspectElm();
 })
 
 $("#buttonpembuka").click(function() {
@@ -64,4 +66,24 @@ function copyText(elm) {
   $($(elm).parent().find('button')[0]).html("Copied");
   const textVal = $(elm).parent().find('input')[0].value;
   navigator.clipboard.writeText(textVal);
+}
+
+function disableInspectElm() {
+  document.onkeydown = function(e) {
+    if(event.keyCode == 123) {
+       return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+       return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+       return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+       return false;
+    }
+    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+       return false;
+    }
+  }
 }

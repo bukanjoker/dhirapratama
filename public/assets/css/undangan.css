@@ -138,6 +138,29 @@ body {
   min-height: 230px;
 }
 
+#photocover {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 32%, rgb(0, 0, 0) 100%), url("/assets/images/photocover.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+  position: relative;
+}
+.photocover-bottom {
+  position: absolute;
+  bottom: 42px;
+  width: 100%;
+}
+.photocover-bottom .btn {
+  font-size: 12px;
+}
+.photocover-top {
+  padding: 30px;
+  font-size: 24px;
+  text-shadow: 0 6px 8px rgb(0,0,0, 0.2);
+  font-family: 'Montserrat';
+}
+
 @media (min-width: 576px) {
   .web-only {
     display: block;
@@ -198,5 +221,10 @@ body {
 
   .card-amplop {
     min-height: 186px;
+  }
+
+  #qrcode-location {
+    width: 120px;
+    padding-bottom: 12px;
   }
 }

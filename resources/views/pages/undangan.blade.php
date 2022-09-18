@@ -13,14 +13,16 @@
   	<link rel="manifest" href="assets/icons/love_letter/site.webmanifest">
 
     <link href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
   	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
   	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
 
-  	<link rel="stylesheet" type="text/css" href="assets/css/undangan.css?v=1.1">
+  	<link rel="stylesheet" type="text/css" href="assets/css/undangan.css?v=1.2">
   </head>
   <body oncontextmenu="return false" class="overflow-disable">
     @include("containers.cover")
-    <div class="undangan-container background-marble">
+    @include("containers.photocover")
+    <div id="section-content" class="undangan-container background-marble">
       <div class="text-center">
         <img src="assets/images/logo-fe.png" class="logo" alt="logo-fe">
         <div class="section-text">
@@ -72,7 +74,7 @@
     </script>
     <script src="bootstrap/js/jquery-3.5.1.js"></script>
   	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.js"></script>
-  	<script type="text/javascript" src="assets/js/undangan.js?v=1.1"></script>
+  	<script type="text/javascript" src="assets/js/undangan.js?v=1.2"></script>
   	<script type="text/javascript" src="assets/js/countdown.js?v=1.1"></script>
   </body>
 </html>
