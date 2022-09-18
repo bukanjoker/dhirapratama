@@ -16,7 +16,7 @@
   </div>
   <div class="col-sm-4 py-2">
     <span class="font-sm">
-      Keluarga Bpk. Kombes Polri Juwari, S. H, M. H dan </br> Ibu Endah Supri Ambarwati, S. H </br> Semarang - Jawa Tengah
+      Keluarga Bpk. Kombes pol. Juwari, S. H, M. H dan </br> Ibu Endah Supri Ambarwati, S. H </br> Semarang - Jawa Tengah
     </span>
   </div>
 </div>

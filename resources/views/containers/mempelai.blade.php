@@ -12,7 +12,7 @@
   <div class="col-sm-5">
     <h3 class="font-styled highlight-text">Eka Pratamandhira, S. Kom</h3>
     <span>
-      Putera pertama dari Bpk. Kombes Polri Juwari, S. H, M. H
+      Putera pertama dari Bpk. Kombes pol. Juwari, S. H, M. H
       dan Ibu Endah Supri Ambarwati, S. H
     </span>
   </div>
