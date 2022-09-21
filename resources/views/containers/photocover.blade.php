@@ -4,4 +4,9 @@
     & 1 0 <br>
     E 2 2
   </div>
+  <div class="photocover-bottom text-center">
+    <a href="#section-content" class="btn text-white">
+      Tap to scroll down
+    </a>
+  </div>
 </div>

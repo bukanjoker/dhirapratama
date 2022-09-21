@@ -7,8 +7,9 @@ $(document).ready(function() {
 
 $("#buttonpembuka").click(function() {
   $("#boxpembuka").fadeOut("slow");
-  $("body").removeClass("overflow-disable");
-  $("#fab-menu").removeClass("hidden");
+  $("#section-content").removeClass("hidden");
+  // $("body").removeClass("overflow-disable");
+  // $("#fab-menu").removeClass("hidden");
 });
 
 $("#google-maps").click(function() {

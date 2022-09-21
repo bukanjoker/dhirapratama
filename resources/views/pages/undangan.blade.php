@@ -17,12 +17,12 @@
   	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
   	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
 
-  	<link rel="stylesheet" type="text/css" href="assets/css/undangan.css?v=1.2">
+  	<link rel="stylesheet" type="text/css" href="assets/css/undangan.css?v=1.3">
   </head>
   <body oncontextmenu="return false" class="overflow-disable">
     @include("containers.cover")
     @include("containers.photocover")
-    <div id="section-content" class="undangan-container background-marble">
+    <div id="section-content" class="undangan-container hidden background-marble">
       <div class="text-center">
         <img src="assets/images/logo-fe.png" class="logo" alt="logo-fe">
         <div class="section-text">
@@ -47,7 +47,7 @@
 
       </div>
 
-      <div id="fab-menu" class="text-right hidden">
+      <div id="fab-menu" class="text-right">
         <div id="fab-container" style="display: none;">
 
           @include("containers.fabItem", ["id" => "google-maps", "label" => "Google Maps", "icon" => "bi-geo-alt", "isModal" => false])
@@ -74,7 +74,7 @@
     </script>
     <script src="bootstrap/js/jquery-3.5.1.js"></script>
   	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.js"></script>
-  	<script type="text/javascript" src="assets/js/undangan.js?v=1.2"></script>
+  	<script type="text/javascript" src="assets/js/undangan.js?v=1.3"></script>
   	<script type="text/javascript" src="assets/js/countdown.js?v=1.1"></script>
   </body>
 </html>
