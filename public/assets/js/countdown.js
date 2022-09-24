@@ -45,8 +45,10 @@ function youtubeOpen() {
       url: '/getConfig/youtube',
       method: 'get',
       success: function(res) {
+        if (res.value) {
           $("#btn-livestream").removeClass("hidden");
           $("#btn-livestream").find('a').attr('href', res.value);
+        }
       }
   })
 }

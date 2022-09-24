@@ -75,6 +75,6 @@
     <script src="bootstrap/js/jquery-3.5.1.js"></script>
   	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.js"></script>
   	<script type="text/javascript" src="assets/js/undangan.js?v=1.3"></script>
-  	<script type="text/javascript" src="assets/js/countdown.js?v=1.1"></script>
+  	<script type="text/javascript" src="assets/js/countdown.js?v=1.2"></script>
   </body>
 </html>
